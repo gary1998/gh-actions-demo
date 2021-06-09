@@ -1,3 +1,10 @@
+## [0.0.5](https://github.com/gary1998/gh-actions-demo/compare/v0.0.4...v0.0.5) (2021-06-09)
+
+
+### Bug Fixes
+
+* **AV:** CD ([f583300](https://github.com/gary1998/gh-actions-demo/commit/f58330093960fa97ce8b0948142c2b7bb6e428e1))
+
 ## [0.0.4](https://github.com/gary1998/gh-actions-demo/compare/v0.0.3...v0.0.4) (2021-06-09)
 
 
