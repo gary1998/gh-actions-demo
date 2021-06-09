@@ -1,5 +1,4 @@
 {
-  "debug": true,
   "branches": [ "master" ],
   "plugins": [
     "@semantic-release/commit-analyzer",
