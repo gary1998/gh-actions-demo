@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl -s https://codecov.io/bash > $HOME/codecov-bash.sh && chmod +x $HOME/codecov-bash.sh
+
 # This script will publish code coverage info for a build of the master branch
 # or a tagged release.
 
