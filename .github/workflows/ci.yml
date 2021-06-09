@@ -10,13 +10,21 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.14
+
       - name: Unit Testing
-        uses: actions/checkout@v1
         run: make test-cov
+
       - name: Code Coverage Report
         run: build/publishCodeCoverage.sh
+
       - name: Setup for Integration Testing
         run: build/setupForITs.sh
+
       - name: Integration Testing
-        uses: actions/checkout@v1
         run: make test-int-cov
