@@ -1,17 +1,19 @@
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
+      - name: present working dir
+        run: pwd
       - name: Unit Testing
-        run: pwd && make test-cov
+        run: make test-cov
       - name: Code Coverage Report
         run: build/publishCodeCoverage.sh
       - name: Setup for Integration Testing
