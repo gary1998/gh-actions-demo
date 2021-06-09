@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-# nvm install 12
-npm install -g npm@6.x
 sudo apt-get update
 sudo apt-get install python
 pip install --user bumpversion
