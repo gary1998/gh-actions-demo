@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: present working dir
-        run: pwd
+        run: cat Makefile
       - name: Unit Testing
         run: make test-cov
       - name: Code Coverage Report
