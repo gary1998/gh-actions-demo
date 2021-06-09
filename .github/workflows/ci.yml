@@ -12,13 +12,11 @@ jobs:
     steps:
       - name: Unit Testing
         uses: actions/checkout@v1
-        with:
-          args: make test-cov
+        run: make test-cov
       - name: Code Coverage Report
         run: build/publishCodeCoverage.sh
       - name: Setup for Integration Testing
         run: build/setupForITs.sh
       - name: Integration Testing
         uses: actions/checkout@v1
-        with:
-          args: make test-int-cov
+        run: make test-int-cov
