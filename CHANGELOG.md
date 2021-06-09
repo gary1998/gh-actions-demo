@@ -1,3 +1,19 @@
+## [0.0.2](https://github.com/gary1998/gh-actions-demo/compare/v0.0.1...v0.0.2) (2021-06-09)
+
+
+### Bug Fixes
+
+* **123:** ABC ([df08285](https://github.com/gary1998/gh-actions-demo/commit/df0828571b4543138d5f756c64bdf8eb691672a0))
+* **123:** ABCD ([9dd05d4](https://github.com/gary1998/gh-actions-demo/commit/9dd05d49a4eac35853d54bef7f2b53beee7fc971))
+* **123:** ABCD ([0b965ca](https://github.com/gary1998/gh-actions-demo/commit/0b965ca194dcb0231d591d7a118ffd99fc91fc03))
+* **123:** ABCD ([45dc0e7](https://github.com/gary1998/gh-actions-demo/commit/45dc0e76b6c91db259f0f26f59afec38331bbbb8))
+* **123:** ABCD ([903cb2a](https://github.com/gary1998/gh-actions-demo/commit/903cb2af64ca6d48fb45a3eb41b89ee712e4b85e))
+* **A:** B ([f1c88ff](https://github.com/gary1998/gh-actions-demo/commit/f1c88ff5f0c761e435648e6e7f291ac8ddb189b3))
+* **Action:** 7 drop ([065f6e1](https://github.com/gary1998/gh-actions-demo/commit/065f6e1ed1fc0457fbebdd1098bf9b61f8848c65))
+* **Action:** 8 drop ([9eee02b](https://github.com/gary1998/gh-actions-demo/commit/9eee02b8bf8c81b61632a3d8df7c9ca09ac65a65))
+* **Action:** 8 drop ([34a2669](https://github.com/gary1998/gh-actions-demo/commit/34a26694454ac19aa1f1a289e256209a315a815c))
+* **Action:** 9 drop ([fd30021](https://github.com/gary1998/gh-actions-demo/commit/fd30021a35db1395d2ad6037263326595aeaa481))
+
 ## [0.0.6](https://github.com/ibm/scc-go-sdk/compare/v0.0.5...v0.0.6) (2021-06-03)
 
 
