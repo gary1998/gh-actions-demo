@@ -55,8 +55,6 @@ jobs:
     steps:
       - name: setup extensions
         uses: actions/checkout@v1
-        with:
-          clean: true
 
       - name: setup nodejs
         uses: actions/setup-node@v2
