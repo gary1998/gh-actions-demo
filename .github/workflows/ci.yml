@@ -10,13 +10,15 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: present working dir
-        run: ls -la
       - name: Unit Testing
-        run: make test-cov
+        uses: cedrickring/golang-action@1.6.0
+        with:
+          args: make test-cov
       - name: Code Coverage Report
         run: build/publishCodeCoverage.sh
       - name: Setup for Integration Testing
         run: build/setupForITs.sh
       - name: Integration Testing
-        run: make test-int-cov
+        uses: cedrickring/golang-action@1.6.0
+        with:
+          args: make test-int-cov
