@@ -86,7 +86,7 @@ jobs:
         uses: actions/checkout@v1
 
       - name: generate gopages
-        run: go run github.com/johnstarich/go/gopages
+        run: go run github.com/johnstarich/go/gopages -base https://gary1998.github.io/gh-actions-demo
       
       - name: deploy gopages to gh-pages
         uses: crazy-max/ghaction-github-pages@v1
