@@ -1,0 +1,20 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Unit Testing
+        run: make test-cov
+      - name: Code Coverage Report
+        run: build/publishCodeCoverage.sh
+      - name: Setup for Integration Testing
+        run: build/setupForITs.sh
+      - name: Integration Testing
+        run: make test-int-cov
