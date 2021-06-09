@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/gary1998/gh-actions-demo/compare/v0.0.3...v0.0.4) (2021-06-09)
+
+
+### Bug Fixes
+
+* **123:** ABCDEF ([5df25a8](https://github.com/gary1998/gh-actions-demo/commit/5df25a81822cf5775de23f40f1bcafa04c0ed55e))
+
 ## [0.0.3](https://github.com/gary1998/gh-actions-demo/compare/v0.0.2...v0.0.3) (2021-06-09)
 
 
