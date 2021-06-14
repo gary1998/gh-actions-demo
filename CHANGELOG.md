@@ -1,3 +1,11 @@
+# [0.1.0](https://github.com/gary1998/gh-actions-demo/compare/v0.0.6...v0.1.0) (2021-06-14)
+
+
+### Features
+
+* **README:** uda diya ([e9f09c7](https://github.com/gary1998/gh-actions-demo/commit/e9f09c74288d53f383dfe26b7168ddefbca847ba))
+* **README:** uda diya ([7906e05](https://github.com/gary1998/gh-actions-demo/commit/7906e0587647392a6dff4e3cb29e2de1a5ee996a))
+
 ## [0.0.6](https://github.com/gary1998/gh-actions-demo/compare/v0.0.5...v0.0.6) (2021-06-09)
 
 
